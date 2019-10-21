@@ -4,8 +4,8 @@ Object based mask generator is used to generate mask from a video from dataset o
 This is implemented on Python 3 and TensorFlow.Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset.It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
 
 Some example of our work 
-![Raw video frame](BeforeMask1.jpg)
-![Masked frame](AfterMask1.jpg)
+![Raw video frame](type.jpg)
+![Masked frame](type11.jpg)
 
 
 The repository includes:
