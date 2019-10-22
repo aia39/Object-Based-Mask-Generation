@@ -1,5 +1,9 @@
 # Object-Based-Mask-Generation
 Object based mask generator is used to generate mask from a video from dataset of Office activity recognition.Mainly the task of this is to differentiate the video from irrelevant background object so that network can concentrate into important objects to classify better.
+It was based on Inception Resnet V2 feature extractor which performs best among all of the existed benchmarked model on COCO dataset.
+Pipeline of the work is 
+![Pipeline of the work](Architecture.jpg)
+(Process.jpg)
 
 This is implemented on Python 3 and TensorFlow.Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset.It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
 
