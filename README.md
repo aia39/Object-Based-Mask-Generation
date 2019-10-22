@@ -3,7 +3,7 @@ Object based mask generator is used to generate mask from a video from dataset o
 It was based on Inception Resnet V2 feature extractor which performs best among all of the existed benchmarked model on COCO dataset.
 Pipeline of the work is 
 ![Pipeline of the work](Architecture.jpg)
-(Process.jpg)
+![Getting the mask](Process.jpg)
 
 This is implemented on Python 3 and TensorFlow.Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset.It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
 
