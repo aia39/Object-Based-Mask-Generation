@@ -26,7 +26,7 @@ The repository includes:
    ```
 3. Unrar the research.rar file which contains 5 files 
 
-3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table.Put the .rar file in 'object detection' folder after step 2 is done and unrar it. 
+3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table.Put the .rar file in 'object detection' folder after step 2 is done and unrar it.You can also download other model which gives mask as output.We select inception_resnet_V2 as it gives better result though computationally expensive. 
 
 4. Run the 'masking.py' from command window
  ```bash
