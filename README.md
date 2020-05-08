@@ -13,8 +13,9 @@ Some example of our work
 
 
 The repository includes:
-* Source code of Mask R-CNN built on Inception Resnet V2 backbone to generate masked frame/video
-** Source code of Privacy Protection. Main goal of this task to provide privacy to privacy sensitive objects in a video.
+* Source code of Mask R-CNN built on Inception Resnet V2 backbone to generate masked frame/video.
+
+* Source code of Privacy Protection. Main goal of this task to provide privacy to privacy sensitive objects in a video.
 Some example of privacy protection is given in [this](https://github.com/aia39/Privacy_Protection_MASKRCNN_Resnet101) repo.
 
 
