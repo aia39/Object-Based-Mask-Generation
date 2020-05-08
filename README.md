@@ -8,8 +8,8 @@ Pipeline of the work is
 This is implemented on Python 3 and TensorFlow.Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset.It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
 
 Some example of our work 
-![Raw video frame](type.jpg)
-![Masked frame](type11.jpg)
+![Raw & Masked video frame](rawmask.jpg)
+
 
 
 The repository includes:
