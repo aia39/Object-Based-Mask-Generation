@@ -47,6 +47,10 @@ You can follow [Mask_RCNN_Dependencies Installation](https://github.com/tensorfl
 ## Requirements
 Python 3.4, TensorFlow 1.3,anaconda,opencv and other common packages.
 
+## Dataset 
+* This was FPV-O office dataset given in an open competition name [Video and Image Processing Cup 2019](https://signalprocessingsociety.org/get-involved/video-image-processing-cup)
+* Details about dataset can be found from this [paper](https://www.researchgate.net/publication/331177449_A_first-person_vision_dataset_of_office_activities)
+
 ## Related Works
 * You can see related works and projects on which we worked from [VIP Cup 2019](https://signalprocessingsociety.org/get-involved/video-image-processing-cup) where we placed 2nd Runners Up.Our team 'BUET Synapticans',we are undergrad students of Bangladesh University of Engineering and University.
 
