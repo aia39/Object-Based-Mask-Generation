@@ -50,7 +50,7 @@ Python 3.4, TensorFlow 1.3,anaconda,opencv and other common packages.
 ## Related Works
 * You can see related works and projects on which we worked from [VIP Cup 2019](https://signalprocessingsociety.org/get-involved/video-image-processing-cup) where we placed 2nd Runners Up.Our team 'BUET Synapticans',we are undergrad students of Bangladesh University of Engineering and University.
 
-* Privacy protection using different framework.([Privacy_Protection_MASKRCNN_Resnet101])  (https://github.com/aia39/Privacy_Protection_MASKRCNN_Resnet101), ([Privacy_Protection_MaskRCNN_InceptionV2])(https://github.com/aia39/Privacy_Protection_MaskRCNN_InceptionV2)
+* Privacy protection using different framework.[Privacy_Protection_MASKRCNN_Resnet101](https://github.com/aia39/Privacy_Protection_MASKRCNN_Resnet101), [Privacy_Protection_MaskRCNN_InceptionV2](https://github.com/aia39/Privacy_Protection_MaskRCNN_InceptionV2)
 
 ## Acknowledgement 
 Tons of code was downloaded from theirs repo
