@@ -13,7 +13,10 @@ Some example of our work
 
 
 The repository includes:
-* Source code of Mask R-CNN built on Inception Resnet V2 backbone.
+* Source code of Mask R-CNN built on Inception Resnet V2 backbone to generate masked frame/video
+** Source code of Privacy Protection. Main goal of this task to provide privacy to privacy sensitive objects in a video.
+Some example of privacy protection is given in [this](https://github.com/aia39/Privacy_Protection_MASKRCNN_Resnet101) repo.
+
 
 ## Getting Started
 1. Clone this repository
@@ -28,9 +31,14 @@ The repository includes:
 
 3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table.Put the .rar file in 'object detection' folder after step 2 is done and unrar it.You can also download other model which gives mask as output.We select inception_resnet_V2 as it gives better result though computationally expensive. 
 
-4. Run the 'masking.py' from command window
+4. Run the 'masking.py' from command window to generate masked video/frame.
  ```bash
    python masking.py
+   ```
+
+5. (Extra) Run the 'protected.py' from command window to generate privacy protected video/frame.
+ ```bash
+   python protected.py
    ```
 You can follow [Mask_RCNN_Dependencies Installation](https://github.com/tensorflow/models.git) to install every dependency required for this project. 
 
@@ -41,6 +49,8 @@ Python 3.4, TensorFlow 1.3,anaconda,opencv and other common packages.
 
 ## Related Works
 * You can see related works and projects on which we worked from [VIP Cup 2019](https://signalprocessingsociety.org/get-involved/video-image-processing-cup) where we placed 2nd Runners Up.Our team 'BUET Synapticans',we are undergrad students of Bangladesh University of Engineering and University.
+
+* Privacy protection using different framework.([Privacy_Protection_MASKRCNN_Resnet101])  (https://github.com/aia39/Privacy_Protection_MASKRCNN_Resnet101), ([Privacy_Protection_MaskRCNN_InceptionV2])(https://github.com/aia39/Privacy_Protection_MaskRCNN_InceptionV2)
 
 ## Acknowledgement 
 Tons of code was downloaded from theirs repo
