@@ -28,8 +28,10 @@ Some example of privacy protection is given in [this](https://github.com/aia39/P
    conda install -c anaconda opencv
    conda install -c anaconda matplotlib
    ``` 
-3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table. Put the .rar file in 'object_detection' folder. You can also download other models which gives mask as output. We select inception_resnet_V2 as it gives better result though computationally expensive. 
+3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table. Put the .rar file in 'object_detection' folder. You can also download other models which gives mask as output. We select inception_resnet_V2 as it gives better result though computationally expensive.
+
 4.Create two folders in 'object_detection' folder 'test_directory_folder', 'protected_directory_folder' respectively for test videos and protected videos.
+
 5. Run the 'masking.py' in command window from 'object_detection' folder to generate masked video/frame.
  ```bash
    python masking.py
