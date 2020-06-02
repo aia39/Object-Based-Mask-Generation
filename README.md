@@ -1,11 +1,11 @@
 # Object-Based-Mask-Generation
-Object based mask generator is used to generate mask from a video from dataset of Office activity recognition.Mainly the task of this is to differentiate the video from irrelevant background object so that network can concentrate into important objects to classify better.
+Object based mask generator is used to generate mask from a video from dataset of Office activity recognition. Mainly the task of this is to differentiate the video from irrelevant background object so that network can concentrate into important objects to classify better.
 It was based on Inception Resnet V2 feature extractor which performs best among all of the existed benchmarked model on COCO dataset.
 Pipeline of the work is 
 ![Pipeline of the work](images/Architecture.jpg)
 ![Getting the mask](images/Process.jpg)
 
-This is implemented on Python 3 and TensorFlow.Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset.It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
+This is implemented on Python 3 and TensorFlow. Here 13 objects from COCO dataset has been included for segmentation as these objects are important in office activity dataset. It's based on Instance segmentation and then assign specific color to same type of objects which is almost similar for detecting same type of class.
 
 Some example of our work 
 ![Raw & Masked video frame](images/rawmask.jpg)
@@ -28,14 +28,14 @@ Some example of privacy protection is given in [this](https://github.com/aia39/P
    conda install -c anaconda opencv
    conda install -c anaconda matplotlib
    ``` 
-3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table. Put the .rar file in 'object detection' folder. You can also download other models which gives mask as output. We select inception_resnet_V2 as it gives better result though computationally expensive. 
+3. Download pre-trained weights,classes names and related file from the [Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). Download 'mask_rcnn_inception_resnet_v2_atrous_coco' from 'COCO-trained models' table. Put the .rar file in 'object_detection' folder. You can also download other models which gives mask as output. We select inception_resnet_V2 as it gives better result though computationally expensive. 
 
-4. Run the 'masking.py' in command window from 'object detection' folder to generate masked video/frame.
+4. Run the 'masking.py' in command window from 'object_detection' folder to generate masked video/frame.
  ```bash
    python masking.py
    ```
 
-5. (Extra) Run the 'protected.py' in command window from 'object detection' folder generate privacy protected video/frame.
+5. (Extra) Run the 'protected.py' in command window from 'object_detection' folder generate privacy protected video/frame.
  ```bash
    python protected.py
    ```
