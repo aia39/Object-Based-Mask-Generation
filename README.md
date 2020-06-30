@@ -10,7 +10,18 @@ This is implemented on Python 3 and TensorFlow. Here 13 objects from COCO datase
 Some example of our work 
 ![Raw & Masked video frame](images/rawmask.jpg)
 
-
+Coloring scheme for segmentation masks obtained from different class-relevant objects are :
+| Relevant Objects | Color | Color Code (R,G,B) |
+| -- | -- | -- |
+| Person | White | (255,255,255) |
+| TV, laptop, monitor | Red  | (255,0,0) |
+| Bottle, cup, wine glass | Blue | (0,0,255) |
+| Cell phone | Cyan | (0,255,255) |
+| Microwave, oven | Yellow | (255,255,0) |
+| Sink & Light | Blue | (100,150,200) |
+| Paper, book | Magenta | (255,0,255) |
+| Keyboard | Green | (0,255,0) |
+| Background/irrelevant objects | Black | (0,0,0) |
 
 The repository includes:
 * Source code of Mask R-CNN built on Inception Resnet V2 backbone to generate masked frame/video.
