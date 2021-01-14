@@ -1,6 +1,9 @@
 # Object-Based-Mask-Generation
 Object based mask generator is used to generate mask from a video from dataset of Office activity recognition. Mainly the task of this is to differentiate the video from irrelevant background object so that network can concentrate into important objects to classify better.
-It was based on Inception Resnet V2 feature extractor which performs best among all of the existed benchmarked model on COCO dataset.
+It was based on Inception Resnet V2 feature extractor which performs best among all of the existed benchmarked model on COCO dataset. 
+
+This was developed for an alternative stream of optical flow. Our proposed network "SegCodeNet" is published [here](https://github.com/iampartho/SegCodeNet). A preprint for this is in the [link](https://www.researchgate.net/publication/343759566_SegCodeNet_Color-Coded_Segmentation_Masks_for_Activity_Detection_from_Wearable_Cameras).
+
 Pipeline of the work is 
 ![Pipeline of the work](images/Architecture.jpg)
 ![Getting the mask](images/Process.jpg)
