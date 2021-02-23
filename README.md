@@ -60,7 +60,7 @@ You can follow [Mask_RCNN_Dependencies Installation](https://github.com/tensorfl
 
 
 ## Requirements
-Python 3.4, TensorFlow 1.3,anaconda,opencv and other common packages.
+Python 3.4, TensorFlow 1.3,anaconda,opencv and other common packages. (If having trouble with TF 2.0 then you can install older version by: pip install tensorflow-gpu==1.14)
 
 ## Dataset 
 * This was FPV-O office dataset given in an open competition name [Video and Image Processing Cup 2019](https://signalprocessingsociety.org/get-involved/video-image-processing-cup)
