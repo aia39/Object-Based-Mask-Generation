@@ -12,6 +12,8 @@ This is implemented on Python 3 and TensorFlow. Here 13 objects from COCO datase
 
 Some example of our work 
 ![Raw & Masked video frame](images/rawmask.jpg)
+![Sample Video 1](2_5_staple.MP4)
+![Sample Video 2](4_15_dryer.MP4)
 
 Coloring scheme for segmentation masks obtained from different class-relevant objects are :
 | Relevant Objects | Color | Color Code (R,G,B) |
